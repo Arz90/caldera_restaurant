@@ -1,0 +1,36 @@
+* { 
+    background-image: url("caldera_img/restaurante.jpg");
+    padding: 0 auto;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.menus {
+
+    background-color:white;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
+
+div li {
+    display:inline-flex;
+
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 150px;
+}
+
+
+
