@@ -3,54 +3,51 @@
     padding: 0 auto;
     margin: 0 auto;
   }
-  
+
   body{
-  
+
        background-image: url("caldera_img/restaurante.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        width: 1280px;
        height: 1080px;
   }
-  
-  
-  
-  
+
+
+
+
   .menus {
-  
-  
-      width: 100%;
-      list-style-type: none;
-      text-align: center;
-      display: flex;
-      flex-direction: row-reverse;
-  
-  
-  
+
+    width: 100%;
+    list-style-type: none;
+    text-align: right;
+
+
   }
-  
+
    li {
       display:inline-flex;
-  
+
   }
-  
-  
-  
+
+
+
    .button {
-     font-family: Lato;
-      font-size: 40px;
-      text-decoration: none;
-      color: white;
-      padding: 10px;
-      width: 150px;
+    font-family: Lato;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 180px;
+    font-weight: 900;
   }
-  
+
   .button:hover{
       color: orange;
-  
+
   }
-  
-  
+
+
   .caldera{
       color: white;
       font-family: Lato;
@@ -60,6 +57,10 @@
       position: relative;
       top: 320px;
       font-size: 80px;
-  
-  
+
+
+  }
+
+  a{
+    text-align: center;
   }
