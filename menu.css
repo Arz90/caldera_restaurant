@@ -1,28 +1,37 @@
 
-.menu{
-    width: 900px;
-    height:900px;
-    margin: 20px auto;
-    padding: 32px;
-    border: 5px solid #181616;
+
+
+
+
+
+body{
+    width: 1280px;
+    height: 1080px;       
     background-image:url("caldera_img/carbon.jpg");
     color: antiquewhite;
+    font-family: lato;
+    
+}
+
+.encabezado{
+    height: 68px;
 }
 
 .title{
     text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
 }
 
-/* .line{
-    height: 10px;
-    height: 30px;
-    border: 2px solid red;
-} */
+
+
+
 
 table {
-    font-family: arial, sans-serif;
+   
     border-collapse: collapse;
     width: 100%;  
+    font-weight: 700;
 
 }
 
@@ -38,12 +47,30 @@ td {
 }
 
 
+
+
 .left{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 85px auto;
-} 
- .right{
-    display: flex;
-} 
+    width: 475px;
+    position: relative;
+    left: 130px;
+    top: 100px;
+}
+
+
+
+
+.right{
+    width: 475px;
+    position: relative;
+    top: -254px;
+    left: 720px;
+}
+
+.horizontal{
+    width: 602px;
+    position: relative;
+    top: -188px;
+    left: 392px;
+
+}
+    
