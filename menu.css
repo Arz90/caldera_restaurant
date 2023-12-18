@@ -1,0 +1,49 @@
+
+.menu{
+    width: 900px;
+    height:900px;
+    margin: 20px auto;
+    padding: 32px;
+    border: 5px solid #181616;
+    background-image:url("caldera_img/carbon.jpg");
+    color: antiquewhite;
+}
+
+.title{
+    text-align: center;
+}
+
+/* .line{
+    height: 10px;
+    height: 30px;
+    border: 2px solid red;
+} */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;  
+
+}
+
+th{
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    /*  border: 1px solid #dddddd; */
+    text-align: justify;
+    padding: 8px;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 85px auto;
+} 
+ .right{
+    display: flex;
+} 
