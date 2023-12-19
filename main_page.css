@@ -44,11 +44,10 @@ li {
 .caldera {
     color: white;
     font-family: Lato;
-    width: 200px;
-    justify-content: center;
-    display: flex;
+    width: 200px;    
     position: relative;
-    top: 320px;
+    top: 350px;
+    left: 400px;
     font-size: 80px;
 
 
