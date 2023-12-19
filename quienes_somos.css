@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    padding: 32px;
 
 
 }
