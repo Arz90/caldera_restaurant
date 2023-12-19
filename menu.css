@@ -1,60 +1,57 @@
-
-
-body{
+body {
     width: 1280px;
-    height: 1080px;       
-    background-image:url("caldera_img/carbon.jpg");
+    height: 1080px;
+    background-image: url("caldera_img/carbon.jpg");
     color: antiquewhite;
     font-family: Lato;
-    
+
     background-attachment: fixed;
-    
+
 }
 
 
-    .header{
-        .menus {
-    
-            width: 100%;
-            list-style-type: none;
-            text-align: right;
-        
-        
-          }
-        
-           li {
-              display:inline-flex;
-        
-          }
-        
-        
-        
-           .button {
-            font-family: Lato;
-            font-size: 20px;
-            text-decoration: none;
-            color: white;
-            padding: 10px;
-            width: 180px;
-            font-weight: 900;
-          }
-        
-          .button:hover{
-              color: orange;
-        
-          }
-        
-    }
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 
 
-.title{
+}
+
+li {
+    display: inline-flex;
+
+}
+
+
+
+.button {
+    font-family: Lato;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 180px;
+    font-weight: 900;
+}
+
+.button:hover {
+    color: orange;
+
+}
+
+
+
+
+.title {
     text-align: center;
     font-size: 50px;
     margin-top: 10px;
-   
+
 }
 
-.container_linea1{
+.container_linea1 {
     width: 165px;
     height: 2px;
     position: relative;
@@ -63,7 +60,7 @@ body{
     background-color: white;
 }
 
-.container_linea2{
+.container_linea2 {
     width: 165px;
     height: 2px;
     position: relative;
@@ -75,14 +72,14 @@ body{
 
 
 table {
-   
+
     border-collapse: collapse;
-    width: 100%;  
+    width: 100%;
     font-weight: 700;
 
 }
 
-th{
+th {
     text-align: center;
     padding: 8px;
 }
@@ -96,7 +93,7 @@ td {
 
 
 
-.left{
+.left {
     width: 475px;
     position: relative;
     left: 130px;
@@ -107,7 +104,7 @@ td {
 
 
 
-.right{
+.right {
     width: 475px;
     position: relative;
     top: -254px;
@@ -116,7 +113,7 @@ td {
 
 }
 
-.horizontal{
+.horizontal {
     width: 602px;
     position: relative;
     top: -188px;
@@ -124,4 +121,3 @@ td {
     border: 5px solid white;
 
 }
-    
