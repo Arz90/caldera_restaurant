@@ -7,11 +7,45 @@ body{
     color: antiquewhite;
     font-family: Lato;
     
+    background-attachment: fixed;
+    
 }
 
-.encabezado{
-    height: 68px;
-}
+
+    .header{
+        .menus {
+    
+            width: 100%;
+            list-style-type: none;
+            text-align: right;
+        
+        
+          }
+        
+           li {
+              display:inline-flex;
+        
+          }
+        
+        
+        
+           .button {
+            font-family: Lato;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            width: 180px;
+            font-weight: 900;
+          }
+        
+          .button:hover{
+              color: orange;
+        
+          }
+        
+    }
+
 
 .title{
     text-align: center;
